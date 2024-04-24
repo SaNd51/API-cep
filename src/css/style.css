@@ -3,7 +3,7 @@
 * {
     font-family: 'Questrial', sans-serif;
     margin: 0;
-    padding: 0;
+    padding: 0.5rem;
     box-sizing: border-box;
     padding: 0.5rem;
 }
@@ -31,19 +31,13 @@ placeholder{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     background-color: #010b1382;
     border-radius: 0.5rem;
     width: auto;
-    padding: 1rem;
+    padding: 0.5rem;
     margin: 1rem;
     box-shadow: 0rem 0rem 30rem  rgba(0, 0, 0, 0.1);
-}
-.container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 0.5rem;
 }
 
 .container i{
@@ -57,6 +51,7 @@ placeholder{
 }
 
 .search {
+    width: 18rem;
     display: flex;
     flex-direction: column;
     gap: 0.8rem;
@@ -66,6 +61,7 @@ placeholder{
 }
 
 .infos{
+    width: 18rem;
     border-radius: 0.5rem;
     padding: 1rem;
     box-shadow: 0rem 0rem 30rem  rgba(0, 0, 0, 0.1);
